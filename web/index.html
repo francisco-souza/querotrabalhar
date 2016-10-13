@@ -6,34 +6,118 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, inicial-scale=1">
-        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css" type="text/css">
-        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css" type="text/css"/>
-        <link rel="stylesheet" href="bootstrap-3.3.7/css/local.css" type="text/css">
-        <link rel="stylesheet" href="bootstrap-3.3.7/css/local.css" type="text/css"/>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="assets/css/paper-dashboard.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/paper-dashboard.css" type="text/css"/>
+        <link rel="stylesheet" href="assets/css/themify-icons.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css" type="text/css"/>
+        <link rel="stylesheet" href="assets/css/demo.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/animate.min.css" type="text/css"/>
+
         <title>Tela de Login</title>
     </head>
     <body>
-    
+        <div class="wrapper">
+    <div class="sidebar" data-background-color="white" data-active-color="danger">
         
-<div class="jumbotron">
-    <h1>Tela de Login</h1>
-        <div class="col-sm-6">
-            <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title">Informações do Usuario</h3>
-                            </div>
-                <div class="panel-body">
-                               
-                  <input type="submit" class="btn btn-default" value="Entrar">
-                  <input type="submit" class="btn btn-default" value="Cadastrar">
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="http://www.creative-tim.com" class="simple-text">
+                   Quero Trabalhar
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li class="active">
+                    <a href="dashboard.html">
+                        <i class="ti-panel"></i>
+                        <p>Pagina Principal</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="user.html">
+                        <i class="ti-user"></i>
+                        <p>Perfil</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="table.html">
+                        <i class="ti-view-list-alt"></i>
+                        <p>Serviços</p>
+                    </a>
+                </li>
+               
+            </ul>
+    	</div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Menu Principla</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                        <!--    
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ti-bell"></i>
+                                    <p class="notification"></p>
+									<p>Notificações</p>
+									<b class="caret"></b>
+                              </a>
+                            
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                                <li><a href="#">Notification 3</a></li>
+                                <li><a href="#">Notification 4</a></li>
+                                <li><a href="#">Another notification</a></li>
+                              </ul>
+                        </li>
+                            -->
+    
+			<li>
+                            <a href="user.html">
+                        <i class="ti-user"></i>
+                        
+			        <p>Login</p>
+                            </a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
-        </div>
+        </nav>
+
+
+        <section class="course-finder">
+    <h1 class="section-heading text-highlight"><span class="line">Faça uma busca</span></h1>
+    <div class="section-content">
+            <div class="row">
+                <div class="col-md-5 col-sm-6 subject">
+                    <select id="estado" class="form-control" name="local" required>  </select> 
+                </div>
+                <div class="col-md-7 col-sm-6 keywords">
+                    <input id="funcao" class="form-control pull-left" name="funcao" type="text" placeholder="Digite a Area desejada" />
+                    <button type="submit" class="btn btn-info btn-fill btn-wd">Pesquisar</button>
+                </div>
+            </div>
     </div>
-  
-    </body>
-</html>
+    </section>
+        
+        
+                                    
